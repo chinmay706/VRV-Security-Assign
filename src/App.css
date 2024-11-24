@@ -1,0 +1,64 @@
+.App {
+  width: 80%;
+  margin: 0 auto;
+}
+.container {
+  width: 80%;
+}
+button {
+  font-weight: 700;
+  margin: 10px;
+}
+.user-type-button {
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: orange;
+  cursor: pointer;
+}
+.user-type-button:hover {
+  background-color: rgba(255, 166, 0, 0.85);
+}
+
+ul {
+  background: orange;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+li {
+  list-style-type: none;
+  display: inline-block;
+  margin-right: 30px;
+  text-decoration-line: none;
+}
+link {
+  text-decoration-line: none;
+}
+.text-muted {
+  color: grey;
+}
+.text-note {
+  color: black;
+  font-weight: 700;
+}
+.footer {
+  text-align: center;
+  padding: 20px;
+  background: black;
+  color: white;
+  width: 100%;
+  position: fixed;
+  bottom: 0px;
+}
+.footer a {
+  margin: 20px;
+  text-decoration: none;
+  color: white;
+}
+.footer a:visited {
+  color: white;
+}
+.fa-20px{
+  font-size: 20px;
+}
